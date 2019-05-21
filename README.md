@@ -8,7 +8,6 @@ CSS3(rem)
 
  
  
- 
 <script>
 	(function(){
 		var html = document.getElementsByTagName('html')[0];
