@@ -5,6 +5,10 @@ CSS3(rem)
 面向对象JQ完成全项目
 
 最简单的rem适配如下: 
+
+ 
+ 
+ 
  (function(){
 	var html = document.getElementsByTagName('html')[0];
 	var cli = document.documentElement.clientWidth || document.body.clientWidth;
