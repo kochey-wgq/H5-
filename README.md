@@ -9,11 +9,11 @@ CSS3(rem)
  
  
 <script>
-	(function(){
-		var html = document.getElementsByTagName('html')[0];
-		var cli = document.documentElement.clientWidth || document.body.clientWidth;
-		(cli>640) ? html.style.fontSize='40px' : html.style.fontSize=cli / 16 + 'px';
-		window.onresize = arguments.callee;	//指向自身
-	})();
+(function(){
+	var html = document.getElementsByTagName('html')[0];
+	var cli = document.documentElement.clientWidth || document.body.clientWidth;
+	(cli>640) ? html.style.fontSize='40px' : html.style.fontSize=cli / 16 + 'px';
+	window.onresize = arguments.callee;	//指向自身
+})();
 </script>
 
